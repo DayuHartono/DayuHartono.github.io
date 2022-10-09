@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<body>
+<style>
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Arial', sans-serif;
+}
+
+body{
+	background-color: navajowhite;
+}
+.terbaik .hidup{
+    font-weight: bold;
+}
+
+.inti{
+    background-color: yellow;
+    padding: 10px;
+    display: none;
+    margin-left: 10px;
+    text-align: justify;
+}
+.inti-terbaik{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.terbaik{
+    position: fixed;
+    background-color: brown;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.1s ease-in-out;
+    box-shadow:1px 1px 10px;
+    z-index: 99;
+}
+.terbaik .inti-terbaik{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.1s ease-in-out;
+}
+
+.terbaik ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.terbaik a{
+    color: black;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.terbaik a:hover{
+    color: black;
+}
+
+.tampilan{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+.tampilan span {
+    font-size: 35px;
+    color: crimson;
+    text-shadow: white;
+}
+
+</style>
+
+    <nav class="terbaik">
+    <div class="inti-terbaik">
+    	<span></span>
+      <ul>
+       <li class="hidup" id="nav_inti1"><a href="#" style="font-size: 25px;">Home</a></li>
+       <li class="mati" id="nav_inti2"><a href="#" style="font-size: 25px;">Tentang</a></li>
+       <li class="mati" id="nav_inti3"><a href="#" style="font-size: 25px;">Kontak</a></li>
+
+      </ul>
+     </div>
+    </nav>
+
+    <br><br><br>
+
+    <div class="inti" id="inti1">
+      <br>
+      <h2>Menu Home</h2>
+        <p>Sed mollit commodo excepteur nulla exercitation et eu sunt aliqua aliquip anim in sint sint exercitation deserunt. Aliqua ex ut ut ut enim non anim dolor tempor aute reprehenderit voluptate nisi aute sint.</p>
+    </div>
+    <div class="inti" id="inti2">
+        <br>
+      <h2>Menu Tentang</h2>
+        <p>Et sit in culpa enim aliqua ullamco laborum excepteur aute exercitation. Dolor quis cupidatat aute nisi magna culpa dolor exercitation ex non. Lorem ipsum tempor cillum tempor mollit esse et nostrud proident labore commodo velit aliqua enim dolor consectetur id pariatur cillum consectetur. Enim in ut tempor deserunt ullamco minim ea cillum ea minim commodo in in dolore aliquip.</p>   
+    </div>
+    <div class="inti" id="inti3">
+        <br>
+      <h2>Menu Kontak</h2>
+        <p>Id pariatur anim amet deserunt anim amet consectetur ex consequat aute mollit culpa ut occaecat do. Lorem ipsum aliqua officia voluptate est quis adipisicing aliquip deserunt culpa laborum aute id duis. Aliquip deserunt et nisi do pariatur mollit cillum proident sint excepteur. Tempor deserunt nisi qui duis sunt tempor fugiat fugiat tempor anim laborum ex voluptate ad incididunt ex culpa.</p>   
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

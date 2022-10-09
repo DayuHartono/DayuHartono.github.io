@@ -1,0 +1,62 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Saya</title>
+    <link rel="stylesheet" href="css-dayu.css">
+</head>
+<body>
+    <div class="seluruhnya">
+        <div class="luhur">
+  
+        </div>
+        <div class="ajabae" align="center">
+            <span class="isinya aktif" id="isinya_1" id="profile" >Profile Saya</span>
+            <span href="#" class="klik" class="isinya" id="isinya_3"></span>
+            <div class="apaan">
+            <div class="karepe">
+        </div></div>
+        </div>
+
+        <div class="hehe" id="bagan_1" style="text-align: center;">
+
+            <h2 class="up" style="font-size: 20px;" style="">Profile Saya</h2>  
+<br>
+            <section style="font-size: 16px;">
+
+            <img src="img.jpeg" style="width: 20%">
+            <br>
+            <p>Dayu Hartono</p><p>NIM: 41216012</p><p>Prodi: Teknik Informasi</p>
+            <br><br><br>
+        <div class="ajabae" align="center">
+            <span class="isinya" id="isinya_2" style="padding: 0;">Tugas</span></div>
+
+
+            </section> 
+            </ul>
+            <span class="lalu"></span>
+        </div>
+
+        <div class="bagan" id="bagan_2" style="padding: 10px; background-color: ivory;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); display: none;">
+            <br>
+            <h2 class="up" align="center" style="font-size: 25px;">Tugas</h2>
+            <p >Project</p>
+            <ul>
+                <li><a style="color: black;" onclick="alert('Silahkan Klik OK')" href="../p03/index.html">P03 HTML Table Sederhana</a></li>
+                <li><a style="color: black;" onclick="alert('Silahkan Klik OK')" href="../p04css-basic/index.html">P04 Formulir Level #2 Basic-CSS HTML Form</a></li>
+                <li><a style="color: black;" onclick="alert('Silahkan Klik OK')" href="../p05-jquery-delete/index.html">P05 JQuery FadeOut When Delete</a></li>
+                <li><a style="color: black;" onclick="alert('Silahkan Klik OK')" href="../p06-spa-menu/index.html">P06 JQuery Add/Remove Class for SPA Menu</a></li>
+                <br><br>
+                <div class="ajabae" align="center">
+                    <a href="index.html">Kembali</a>
+                </div>
+
+            </ul>
+        </div>
+        
+       
+            
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+
+
+</body></html>
